@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Challenge-05</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-logo" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src="./images/fi_menu.png" alt=""></a>
+            </li>
+          </ul>
+          <div class="ms-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex me-3" role="search">
+                  <input class="form-control search-box doc-search" id="search" autocomplete="off" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary search-box-btn color-font" type="submit"><strong>Search</strong></button>
+                </form>
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button type="button" class=" logo-account position-relative top-50 start-50 translate-middle btn-sm rounded-pill">U</button>             
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Unis Badri <img class="chevron-down" src="./images/fi_chevron-down.png" alt=""></a>
+                      </li>
+                    <li class="nav-item">
+                        
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          
+        </div>
+      </nav>
+
+
+    <!-- Navbar-left -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-color-nav-left">
+                <div class="nav-left">
+                    <div class="">
+                        <button type="button" class="nav-logo-left position-relative top-50 start-50 translate-middle btn-sm"></button>
+                    </div>
+                    <div>
+                        <button class="btn-home">
+                            <img src="./images/fi_home.png" class="" alt="">
+                            <p class="dashboard position-relative top-50 start-50 translate-middle">Dashboard</p>    
+                        </button>
+                        <button class="btn-home">
+                            <img src="./images/fi_truck.png" class="" alt="">
+                            <p class="dashboard position-relative top-50 start-50 translate-middle">Cars</p>    
+                        </button>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="list-menu">
+                            <a href=""><p>CARS</p></a>
+
+                    </div>
+                    <div class="list-menu">
+                            <a href=""><p>List Car</p></a>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <!-- main -->
+            <div class="col-9">
+                <p class="text-small head-main">
+                    <strong>Cars <img src="./images/chevron-right.png" alt=""></strong> 
+                    <strong> List Car <img src="./images/chevron-right.png" alt=""></strong>
+                    <span >Update Car Information</span>
+                </p>
+
+                <p class="text-big head-main">
+                    <strong>Update Car Information</strong> 
+                </p>
+
+                <form action="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <h6>
+                                    Nama<span>*</span> 
+                                </h6>
+                                <h6>
+                                    Sewa Per Hari<span>*</span>
+                                </h6>
+                                <h6>
+                                    Ukuran<span>*</span>
+                                </h6>
+                                <h6>
+                                    Foto<span>*</span>
+                                </h6>
+                            </div>
+                            <div class="col-9">
+                                <div>
+                                    <input class="box-input" type="text" placeholder="Avanza" autocomplete="none">                      
+                                </div>
+                                <div>
+                                    <input class="box-input" type="text" placeholder="Rp 0,-" autocomplete="none">
+                                </div>
+                                <div class="select-box">
+                                    <select>
+                                      <option value="0">Small</option>
+                                      <option value="1">Medium</option>
+                                      <option value="2">Large</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <input class="box-input-img" type="file" accept="link image/*" autocomplete="none">
+                                </div>
+                                <div>
+                                    <p>File size max. 2MB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-input">
+                        <a href="index.ejs">
+                            <button class="cancel-button">
+                                Cancel
+                              </button>
+                        </a>
+                        <a href="index.ejs">
+                            <button class="save-button">
+                                Save
+                              </button>
+                        </a>
+                    </div>
+                </form>
+                
+                
+            </div>
+                
+            </div> 
+                
+                
+
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
